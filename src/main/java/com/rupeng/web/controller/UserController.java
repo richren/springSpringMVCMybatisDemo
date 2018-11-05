@@ -49,6 +49,7 @@ public class UserController {
 
         User user = new User();
         user.setEmail(email);
+        user.setName(email);
         user.setPassword(password);
 
         //执行具体的注册业务逻辑

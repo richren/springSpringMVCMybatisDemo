@@ -10,7 +10,7 @@
 <body>
     <form action="${pageContext.request.contextPath }/user/register2.do" method="post">
         邮箱：<input type="text" name="email" value="${param.email }"/> <br/><br/>
-        邮箱：<input type="password" name="password" value="${param.password }" /> <br/><br/>
+        密码：<input type="password" name="password" value="${param.password }" /> <br/><br/>
         
         <c:if test="${not empty message }">
             <span style="color: red;">${message }</span><br/><br/>
